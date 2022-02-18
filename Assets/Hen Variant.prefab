@@ -111,6 +111,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5a25762cf992bc4abc7c7f8ed0c79d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  rigidBody: {fileID: 0}
 --- !u!1001 &393215757018385159
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -118,6 +120,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2820618604919552712, guid: 82d1fda3c9baa1a4cb7cdb02a5cb60e9,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f67b10635e862344d866d9c42249c5e6, type: 2}
     - target: {fileID: 2820618604926506274, guid: 82d1fda3c9baa1a4cb7cdb02a5cb60e9,
         type: 3}
       propertyPath: m_RootOrder
@@ -177,6 +184,27 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hen Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820618605368075600, guid: 82d1fda3c9baa1a4cb7cdb02a5cb60e9,
+        type: 3}
+      propertyPath: m_Height
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820618605368075600, guid: 82d1fda3c9baa1a4cb7cdb02a5cb60e9,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820618605368075602, guid: 82d1fda3c9baa1a4cb7cdb02a5cb60e9,
+        type: 3}
+      propertyPath: stats
+      value: 
+      objectReference: {fileID: 11400000, guid: 206b9a7643c46db4089459065a136bc0,
+        type: 2}
+    - target: {fileID: 2820618605368075602, guid: 82d1fda3c9baa1a4cb7cdb02a5cb60e9,
+        type: 3}
+      propertyPath: species
+      value: Hen
       objectReference: {fileID: 0}
     - target: {fileID: 2820618605368075602, guid: 82d1fda3c9baa1a4cb7cdb02a5cb60e9,
         type: 3}
